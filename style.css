@@ -9,3 +9,27 @@
         from { background-position: 0 0;}
         to{ background-position: 100% 100%;}
     }
+
+    h1 {
+        color: white;
+        font-style: italic;
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: Helvetica, sans-serif;
+    }
+
+    ul {
+        font-size: 20px;
+    }
+    h3{ 
+        font-size: 25px;
+    }
+    #linkedin{ 
+        font-size: 20px;
+    }
+    #github{ 
+        font-size: 20px;
+    }
