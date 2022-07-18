@@ -74,9 +74,18 @@ ul li:nth-child(odd){
 }
 
 .habilidades{
+    position:absolute;
+    font-size: 100%;
+    float: left;
+    margin-top: 100px;
+}
+/*
+.habilidades{
+    border: 2px solid black;
     position:relative;
     top: 110px;
     font-size: 100%;
     float: left;
     left: -255px;
 }
+*/
