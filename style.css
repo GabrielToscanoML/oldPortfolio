@@ -1,35 +1,79 @@
+body {
+    background-image: linear-gradient(to bottom right, #4affde 0%,
+            #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
+    animation: gradientEffect 4s linear infinite alternate;
+    background-size: 300% 300%;
 
-    body{
-        background-image: linear-gradient(to bottom right, #4affde 0%,
-        #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
-        animation: gradientEffect 6s linear infinite alternate;
-        background-size: 200% 200%;
-    }
-    @keyframes gradientEffect {
-        from { background-position: 0 0;}
-        to{ background-position: 100% 100%;}
-    }
+}
 
-    h1 {
-        color: white;
-        font-style: italic;
-        font-family: Arial, Helvetica, sans-serif;
+@keyframes gradientEffect {
+    from {
+        background-position: 0 0;
     }
 
-    p {
-        font-size: 20px;
-        font-family: Helvetica, sans-serif;
+    to {
+        background-position: 80% 80%;
     }
+}
 
-    ul {
-        font-size: 20px;
-    }
-    h3{ 
-        font-size: 25px;
-    }
-    #linkedin{ 
-        font-size: 20px;
-    }
-    #github{ 
-        font-size: 20px;
-    }
+ul {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#github {
+    margin-left: 65px;
+}
+
+#meuNome {
+    color: blue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    top: 20px;
+    position: relative;
+}
+
+#minha-foto {
+    float: left;
+    height: 430px;
+    padding: 10px;
+    background-color: #065725;
+}
+
+#descricao {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 170%;
+    margin-left: 15px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    right: 150px;
+}
+.foto-descricao {
+    height: 450px;
+}
+
+.redes-sociais{
+    position: relative;
+    top: 10px;
+    float: left; 
+}
+.foto-descricao-sociais{
+    position: relative;
+    padding: 10px;
+    left: 20px;
+}
+
+    /*
+    <h4>
+        <ul>
+            <li> <a href="#habilidades"> Habilidades Pessoais </a> </li>
+        </ul>
+    </h4>
+    */
