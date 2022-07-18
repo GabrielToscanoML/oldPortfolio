@@ -3,7 +3,6 @@ body {
             #5b9dff 40%, #9f6bff 60%, #ff34d2 100%);
     animation: gradientEffect 4s linear infinite alternate;
     background-size: 300% 300%;
-
 }
 
 @keyframes gradientEffect {
@@ -70,10 +69,14 @@ h3 {
     left: 20px;
 }
 
-    /*
-    <h4>
-        <ul>
-            <li> <a href="#habilidades"> Habilidades Pessoais </a> </li>
-        </ul>
-    </h4>
-    */
+ul li:nth-child(odd){
+    background-color: yellow;
+}
+
+.habilidades{
+    position:relative;
+    top: 110px;
+    font-size: 100%;
+    float: left;
+    left: -255px;
+}
