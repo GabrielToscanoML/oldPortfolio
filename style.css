@@ -14,6 +14,7 @@ body {
         background-position: 80% 80%;
     }
 }
+
 ul {
     font-size: 20px;
 }
@@ -22,50 +23,52 @@ h3 {
     font-size: 25px;
 }
 
-#github {
-    margin-left: 65px;
-}
-
 #meuNome {
-    color: blue;
+    color: black;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 50px;
-    top: 20px;
-    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    left: 20px;
 }
 
 #minha-foto {
-    float: left;
-    height: 429px;
+    border-radius: 50%;
+    height: 250px;
     padding: 10px;
-    background-color: #065725;
+    background-color: purple;
 }
 
 #descricao {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    font-size: 170%;
+    font-size: 150%;
     margin-left: 15px;
-    position: absolute;
-    left: 300px;
-    top: 20px;
-    right: 150px;
+    width: 70%;
 }
-.foto-descricao {
-    height: 450px;
+
+.foto-descricao-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 
 .redes-sociais{
-    position: relative;
-    top: 10px;
-    float: left; 
-}
-.foto-descricao-sociais{
-    position: relative;
-    padding: 10px;
-    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 250px;
+    height: 120px;
 }
 
 ul li:nth-child(odd){
@@ -73,18 +76,10 @@ ul li:nth-child(odd){
 }
 
 .habilidades{
-    position:absolute;
+    display: flex;
+    flex-direction: column;
     font-size: 100%;
     float: left;
-    margin-top: 100px;
+    margin-top: 20px;
+    width: 100%;
 }
-/*
-.habilidades{
-    border: 2px solid black;
-    position:relative;
-    top: 110px;
-    font-size: 100%;
-    float: left;
-    left: -255px;
-}
-*/
